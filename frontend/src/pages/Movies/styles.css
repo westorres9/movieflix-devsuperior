@@ -1,0 +1,38 @@
+.movie-container {
+  margin-top: 15px;
+  margin-left: 15px;
+  color: #ffffff;
+}
+
+.movie-container h1 {
+  font-size: 24px;
+}
+
+.movie-list-container {
+  margin-top: 40px;
+}
+
+.movie-list-container ul {
+  font-size: 18px;
+  list-style-type: none;
+  padding-left: 0px;
+  font-style: normal;
+}
+
+.movie-list-container li {
+  padding-bottom: 12px;
+}
+
+@media (min-width: 992px) {
+  .movie-container h1 {
+    font-size: 48px;
+  }
+
+  .movie-list-container ul {
+    font-size: 24px;
+  }
+
+  .movie-list-container li {
+    padding-bottom: 27px;
+  }
+}
