@@ -1,0 +1,62 @@
+.comment-details-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .comment-details-header svg {
+    margin-left: 15px;
+  }
+  
+  .comment-details-container h1 {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-details-card {
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    width: 280px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-details-card p {
+    width: 240px;
+    height: 68px;
+    font-size: 16px;
+    color: #9e9e9e;
+    margin: 15px;
+  }
+  
+  @media (min-width: 576px) {
+    .comment-details-card {
+      width: 500px;
+    }
+  
+    .comment-details-card p {
+      width: 500px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .comment-details-card {
+      width: 700px;
+    }
+  
+    .comment-details-card p {
+      width: 650px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .comment-details-card {
+      width: 1100px;
+      height: 50px;
+    }
+  
+    .comment-details-card p {
+      width: 1000px;
+    }
+  }

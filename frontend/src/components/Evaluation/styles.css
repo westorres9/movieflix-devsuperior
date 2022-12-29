@@ -1,0 +1,36 @@
+.evaluation-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 157px;
+    margin: 20px 10px 0px 10px;
+  }
+  
+  .evaluation-input {
+    font-size: 16px;
+  }
+  
+  .evaluation-submit {
+    margin-top: 17px;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 576px) {
+    .evaluation-input {
+      margin: 20px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .evaluation-input {
+      width: 700px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .evaluation-input {
+      width: 1077px;
+      margin: 24px;
+    }
+  }
